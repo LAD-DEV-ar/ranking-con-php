@@ -8,6 +8,7 @@ use Controllers\RankingController;
 $router = new Router();
 
 $router->get('/', [RankingController::class, 'index']);
+$router->post('/', [RankingController::class, 'index']);
 
 
 
